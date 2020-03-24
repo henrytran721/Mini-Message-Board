@@ -1,0 +1,29 @@
+.formDetail {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        height: 50%;
+        input {
+            width: 100%;
+            height: 40px;
+            margin: 5% 0;
+            border: none;
+            text-align: center;
+        }
+
+        button {
+            background: none;
+            background: darken(#a1d6ff, 20%);
+            border: none;
+            color: white;
+            height: 40px;
+            border-radius: 4px;
+        }
+    }
+}

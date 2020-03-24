@@ -1,0 +1,61 @@
+body {
+  background: #a1d6ff;
+  font-family: Helvetica, sans-serif;
+  color: white; }
+
+.mainHeader {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; }
+
+.addDetail {
+  text-decoration: none;
+  height: 50px;
+  width: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 4px;
+  background: #3baaff; }
+
+.messageDetail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #3baaff;
+  margin: 5% 25%;
+  width: 50%; }
+  .messageDetail .messageHeader {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    background: #0893ff; }
+
+.formDetail {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+  .formDetail form {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 50%; }
+    .formDetail form input {
+      width: 100%;
+      height: 40px;
+      margin: 5% 0;
+      border: none;
+      text-align: center; }
+    .formDetail form button {
+      background: none;
+      background: #3baaff;
+      border: none;
+      color: white;
+      height: 40px;
+      border-radius: 4px; }

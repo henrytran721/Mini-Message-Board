@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    h1 Add a new entry
+    form(method='POST' action='/new') 
+        input(type='text' name='user' placeholder='Please enter your username' required='true')
+        input(type='text' name='text' placeholder='Please enter your text' required='true')
+        button(type='submit') Add Entry
